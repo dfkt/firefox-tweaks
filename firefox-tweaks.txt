@@ -49,14 +49,6 @@ Disable DNS proxy bypass:
 http://kb.mozillazine.org/Network.proxy.socks_remote_dns
 network.proxy.socks_remote_dns - true
 
-Disable IPv6:
-http://kb.mozillazine.org/Network.dns.disableIPv6
-network.dns.disableIPv6 - true
-
-Disable crash reporting:
-http://kb.mozillazine.org/Breakpad.reportURL
-breakpad.reportURL - (blank)
-
 Disable sending pings:
 http://kb.mozillazine.org/Browser.send_pings
 http://kb.mozillazine.org/Browser.send_pings.require_same_host
@@ -68,38 +60,11 @@ privacy.donottrackheader.enabled - true
 privacy.donottrackheader.value - 1
 privacy.trackingprotection.enabled - true
 
-Disable geolocation:
-geo.enabled - false
-geo.wifi.uri - (blank)
-
-Disable geotargeting:
-browser.search.geoSpecificDefaults - false
-browser.search.geoSpecificDefaults.url - (blank)
-browser.search.geoip.url - (blank)
-
-Disable telemetry:
-toolkit.telemetry.enabled - false
-toolkit.telemetry.server - (blank)
-
-Disable 'safe browsing' aka. Google tracking/logging:
-browser.safebrowsing.downloads.enabled - false
-browser.safebrowsing.downloads.remote.enabled - false
-browser.safebrowsing.enabled - false
-browser.safebrowsing.maleware.enabled - false
-
-Type 'google' in about:config and delete most of the links (the ones that won't break anything, that's up to you).
-Also search through these to delete links from:
-browser.contentHandlers
-browser.safebrowsing
-browser.search
-gecko.handlerService
 
 Disable WebGL:
 https://security.stackexchange.com/questions/13799/is-webgl-a-security-concern
 webgl.disabled - true
 
-Install unsigned addons in Aurora/Dev-Edition/etc (needed for Privacy Badger, HTTPS Everywhere, etc.):
-xpinstall.signatures.required - false
 
 ----------------------------------------------------
 
@@ -110,10 +75,6 @@ browser.urlbar.trimURLs - false
 
 Revert to old search bar layout:
 browser.search.showOneOffButtons - false
-
-Remove "(site) is now fullscreen" nag message and make it faster:
-full-screen-api.approval-required - false
-browser.fullscreen.animate - false
 
 De-crap new tab page:
 browser.newtabpage.directory.ping - (blank)
@@ -157,6 +118,3 @@ social.remote-install.enabled - false
 social.shareDirectory - (blank)
 social.toast-notifications.enabled - false
 social.whitelist - (blank)
-
-Disable PDF reader:
-pdfjs.disabled - true
