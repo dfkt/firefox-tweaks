@@ -85,7 +85,7 @@ Disable 'safe browsing' aka. Google tracking/logging:
 browser.safebrowsing.downloads.enabled - false
 browser.safebrowsing.downloads.remote.enabled - false
 browser.safebrowsing.enabled - false
-browser.safebrowsing.maleware.enabled - false
+browser.safebrowsing.malware.enabled - false
 
 Type 'google' in about:config and delete most of the links (the ones that won't break anything, that's up to you).
 Also search through these to delete links from:
