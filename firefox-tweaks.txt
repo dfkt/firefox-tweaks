@@ -134,6 +134,9 @@ devtools.command-button-eyedropper.enabled - true
 Dark theme for dev tools:
 devtools.theme - dark
 
+Disable download notifications animation:
+browser.download.animateNotifications - false
+
 ----------------------------------------------------
 
 BLOATWARE
