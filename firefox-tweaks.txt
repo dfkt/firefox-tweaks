@@ -37,6 +37,10 @@ Enable new cache:
 https://bugzilla.mozilla.org/show_bug.cgi?id=913807
 browser.cache.use_new_backend - 1
 
+Disable Silent Pre-Connections:
+https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections#w_speculative-pre-connections
+network.http.speculative-parallel-limit - 0
+
 ----------------------------------------------------
 
 SECURITY/PRIVACY
