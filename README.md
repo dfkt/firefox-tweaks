@@ -11,6 +11,8 @@ Once you've done that, you probably don't need stuff like "safe browsing" and si
 
 ---
 
+![Firefox](http://i.imgur.com/YG88rPI.png)
+
 To apply these tweaks, type `about:config` in the URL bar, and use the config search bar to look up the individual settings.
 
 ---
