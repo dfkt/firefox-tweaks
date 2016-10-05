@@ -303,6 +303,9 @@ user_pref("general.autoScroll", false);
 user_pref("accessibility.typeaheadfind", true); // http://kb.mozillazine.org/Accessibility.typeaheadfind
 user_pref("accessibility.typeaheadfind.flashBar", 0); // http://kb.mozillazine.org/Accessibility.typeaheadfind.flashBar
 
+//FF49: Remove "recently bookmarked" list:
+user_pref("browser.bookmarks.showRecentlyBookmarked", false);
+
 // Better legible default fonts (for Windows, at least - might require ttf-mscorefonts on *nix):
     // As an alternative, the free Ubuntu and Droid font families are pretty good as well.
 // user_pref("font.name.monospace.x-unicode", "Lucida Console");
