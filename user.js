@@ -442,6 +442,10 @@ user_pref("gecko.handlerService.schemes.webcal.0.uriTemplate", "");
     // https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections#w_mozilla-content
 user_pref("browser.aboutHomeSnippets.updateUrl", "");
 
+// Disable Captive Portal detection
+// https://bugzilla.mozilla.org/show_bug.cgi?id=1307867
+user_pref("network.captive-portal-service.enabled", false);
+
 // ----------------------------------------------------
 // NEEDS MORE RESEARCH
 // ----------------------------------------------------
