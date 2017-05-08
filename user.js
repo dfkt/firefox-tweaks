@@ -349,7 +349,7 @@ user_pref("extensions.getAddons.cache.enabled", false);
 // BLOATWARE / UNWANTED "FEATURES"
 // ----------------------------------------------------
 
-
+// Disable Web Push notifications:
     // https://support.mozilla.org/en-US/kb/push-notifications-firefox?as=u&utm_source=inproduct
     // http://www.skipser.com/p/2/p/stop-firefox-push-notifications.html
 user_pref("dom.webnotifications.enabled", false);
