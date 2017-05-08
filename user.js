@@ -349,6 +349,12 @@ user_pref("extensions.getAddons.cache.enabled", false);
 // BLOATWARE / UNWANTED "FEATURES"
 // ----------------------------------------------------
 
+
+    // https://support.mozilla.org/en-US/kb/push-notifications-firefox?as=u&utm_source=inproduct
+    // http://www.skipser.com/p/2/p/stop-firefox-push-notifications.html
+user_pref("dom.webnotifications.enabled", false);
+user_pref("dom.webnotifications.serviceworker.enabled", false);
+
 // Disable EME, Adobe "Primetime Content Decryption Module" DRM malware:
     // http://techdows.com/2015/04/how-to-uninstall-or-remove-adobe-primetime-decryption-module-plugin-from-firefox-38.html
     // Additionally, you might want to delete all traces of "gmp-eme" from your Firefox profile folder.
